@@ -36,6 +36,5 @@ def printer(attendees)
     puts "Hello, #{prints}! You'll be assigned to room #{counter}!"
     counter += 1
   end
-  return new_array
 
 end
