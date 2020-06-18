@@ -30,6 +30,8 @@ end
 
 def printer(attendees)
   
-  
+  new_array = []
+  attendees.each do | prints |
+    new_array.push()
 
 end
