@@ -1,9 +1,7 @@
 # Write your code here.
-def conference_badges(name, attendees, badges, room_assignments)
+def conference_badges
   
-  attendees.each do | badge |
-    "Hello, my name is #{badge}"
-  end
+  badge_maker(name) = "Hello, my name is #{name}."
   
   
 end
