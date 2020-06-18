@@ -32,7 +32,7 @@ def printer(attendees)
   
   new_array = []
   attendees.each do | prints |
-    puts new_array.push(batch_badge_creator, assign_rooms)
+    puts new_array.push("Hello, my name is ")
   end
   return new_array
 
