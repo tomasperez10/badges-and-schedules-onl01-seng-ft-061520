@@ -34,6 +34,7 @@ def printer(attendees)
   counter = 1
   attendees.each do | prints |
     puts new_array.push("Hello, my name is #{prints}.")
+    puts new_array.push("Hello, #{prints}! You'll be assigned to room #{counter}!")
   end
   return new_array
 
