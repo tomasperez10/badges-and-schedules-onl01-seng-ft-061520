@@ -22,5 +22,7 @@ def assign_rooms(attendees)
     new_array.push("Hello, #{room_assignments}! You'll be assigned to room #{counter}!")
     counter += 1
   end
+  
+  return new_array
 
 end
