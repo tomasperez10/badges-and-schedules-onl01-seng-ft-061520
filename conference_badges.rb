@@ -18,6 +18,6 @@ def assign_rooms(attendees)
   
   new array = []
   attendees.each do | room_assignments |
-    new_array.push()
+    new_array.push("Hello, #{room_assignments}! ")
 
 end
