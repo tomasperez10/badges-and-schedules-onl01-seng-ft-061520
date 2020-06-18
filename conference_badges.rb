@@ -11,5 +11,5 @@ def batch_badge_creator(attendees)
   attendees.each do | badges |
     new_array.push("Hello, my name is #{badges}.")
   end
-retrun new_array
+return new_array
 end
